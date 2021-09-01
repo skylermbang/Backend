@@ -3,6 +3,7 @@ cd ssh ubuntu@3.36.100.222<<EOF
     cd ~/github-folder
     sudo -s	
     pwd
+    
     git pull origin main
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
     . ~/.nvm/nvm.sh 
