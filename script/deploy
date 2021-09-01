@@ -1,15 +1,12 @@
 #!/bin/sh
 ssh ubuntu@3.36.100.222<<EOF
     
-    sudo -s	
+    sudo su
     pwd
     cd app/Backend
     git pull origin main
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
-
     npx prisma migrate generate
-    
-
     exit
 EOF
 
