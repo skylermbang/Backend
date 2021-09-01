@@ -1,5 +1,5 @@
 #!/bin/sh
-cd ssh ubuntu@3.36.100.222<<EOF
+ ssh ubuntu@3.36.100.222<<EOF
     
     sudo -s	
     pwd
