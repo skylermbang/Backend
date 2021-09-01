@@ -132,7 +132,7 @@ export default class AuthController implements Controller {
     const [authType, authToken] = (authorization || '').split(' ')
     const provider = req.body.provider
 
-    if (!authToken || authType !== 'Bearer') {
+    if (!authToken || authType !==   'Bearer') {
       return res.status(401).redirect('http://talkbout.camp/login')
     }
 
