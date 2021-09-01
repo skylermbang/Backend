@@ -5,6 +5,7 @@ import S3 from 'aws-sdk/clients/s3'
 /* 
   This file will be deprecated soon
   the code will be moved to image.controller.ts
+  this is test
 */
 
 const bucketName = process.env.AWS_BUCKET_NAME
