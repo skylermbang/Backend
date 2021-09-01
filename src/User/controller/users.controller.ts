@@ -81,6 +81,7 @@ export default class UsersController implements Controller {
     }
     const requestObject = {
       nickname: String(req.user),
+      
       content: req.body.content
     }
 
