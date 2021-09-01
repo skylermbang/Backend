@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh ubuntu@node-server-ip<<EOF
+ssh ubuntu@3.36.100.222<<EOF
     cd ~/github-folder
     sudo -s	
     git pull origin master
