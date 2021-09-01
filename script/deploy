@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh ubuntu@3.36.100.222<<EOF
+cd ssh ubuntu@3.36.100.222<<EOF
     cd ~/github-folder
     sudo -s	
     pwd
